@@ -1,0 +1,49 @@
+hello,
+this is my first project.
+the purpose of this project is to build a website for a flight company
+
+this project is divided into three parts:
+1.SQLite DB
+2. python
+3. HTML
+
+In another file, you will find the SQLite DB I build.
+
+in my python part, I separated the project into two sections:
+main -  the classes and functions of the methods.
+scratch - the connection from python to SQLite.
+
+list of the connection functions to each other:
+
+Flight functions:
+main functions <===> scratch functions
+import_flights <---> readFlights
+cheack_flight <---> getIdflight
+add_flights <---> insertValues
+remainingSeatsUpdate <---> UpdateSeats
+updateFlight <---> UpdateFlight
+deleteFlight <---> DeleteValues
+
+Users functions:
+main functions <===> scratch functions
+importUsers <---> readUsers
+checkUser <---> getIdUser
+add_Users <---> insertValuesUser
+updateUser <---> updateUser
+deleteUser <---> DeleteUserValues
+
+Tickets functions:
+main functions <===> scratch functions
+importTickets <---> readTickets
+checkTickets <---> getIdTickets
+add_Tickets <---> insertValuesTickets
+deleteTickets <---> DeleteTicketsValues
+
+Countries functions:
+main functions <===> scratch functions
+importCountries <---> readCountries
+checkCountries <---> getIdCountries
+add_Countries <---> insertValuesCountries
+updateCountries <---> updateCountries
+deleteCountries <---> DeleteCountriesValues
+
